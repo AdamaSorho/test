@@ -1,0 +1,39 @@
+<ng-container>
+    <div fxLayout="row">
+        <div fxFlex="80%" fxFlexOffset="10%">
+            <h1 style="font-weight: bold; font-size: 50px;">Inscription</h1>
+            <p style="font-weight: bold;">Cher créatif, vueillez s'il vous plaît renseigner les champs d'inscription. <br>
+                NB: Les champs obligatoires sont indiqués avec un astérique (*).
+            </p>
+            <div style="margin-top: 45px;">
+                <div fxLayout="row" fxLayoutGap="20px">
+                    <div fxFlex class="form-group">
+                        <input type="text" placeholder="Email ou Pseudo" class="form-input">
+                    </div>
+                    <div fxFlex class="form-group">
+                        <input type="text" placeholder="Mot de passe" class="form-input">
+                    </div>
+                    <div fxFlex class="form-group">
+                        <input type="text" placeholder="Mot de passe" class="form-input">
+                    </div>
+                </div>
+
+                <div fxLayout="row" style="margin-top: 30px">
+                    <div fxFlex ="33.33%" fxFlexOffset="33%" class="form-group" style="font-weight : bold">
+                        <label for="">Sexe *</label><br>
+                        <input type="radio" name="sexe"> Masculin &nbsp;
+                        <input type="radio" name="sexe"> Feminin
+                    </div>
+                </div>
+
+                <div fxLayout="row" style="margin-top: 80px">
+                    <div  fxFlexOffset="45%" fxFlex="10%">
+                        <div style="width: 50px; height: 50px; border-radius: 100%; border: 5px solid #fff">
+                            <i class="fas fa-long-arrow-alt-right" style="margin-top: 10px;"></i>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>

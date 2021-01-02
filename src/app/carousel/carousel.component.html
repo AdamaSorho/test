@@ -1,0 +1,9 @@
+<!-- carousel -->
+<div class="carousel">
+    <ng-container *ngFor="let slide of slides|selectedElement:currentSlide">
+      <div [@EnterLeave]="'flyIn'">
+        <h1 [@EnterLeaveTitle] style="font-weight: bold; font-size: 50px;">{{ slide.title }}</h1>
+        <p style="font-size: 25px; font-weight: bold;">{{ slide.description }}</p>
+      </div>
+    </ng-container>
+  </div>
